@@ -1,0 +1,17 @@
+/*taustan väri*/
+.navbar-custom {
+    background-color: bisque;
+}
+/*tekstin väri*/
+.navbar-custom .navbar-text{
+    color: darkslategray;
+}
+/*linkin väri*/
+.navbar-custom .navbar-nav .nav-link {
+    color: darkslateblue;
+}
+/*aktiivisen & hover-linkin väri*/
+.navbar-custom .nav.item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: cadetblue;
+}
