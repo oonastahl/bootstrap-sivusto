@@ -1,17 +1,44 @@
-/*taustan väri*/
-.navbar-custom {
-    background-color: bisque;
+/* Sivuston perusvärit */
+body {
+    background-color: #F1F2ED;
+    color: #231613;
 }
-/*tekstin väri*/
-.navbar-custom .navbar-text{
-    color: darkslategray;
+/* Painikkeiden tyylit */
+.btn-primary {
+    background-color: #E84D68;
+    border-color: #F6C8CA;
+    color: #231613;
 }
-/*linkin väri*/
-.navbar-custom .navbar-nav .nav-link {
-    color: darkslateblue;
+.btn-primary:hover {
+    background-color: #F6C8CA;
+    border-color: #F6C8CA;
+    color: #231613;
 }
-/*aktiivisen & hover-linkin väri*/
-.navbar-custom .nav.item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-    color: cadetblue;
+/* Navigaation tyylit */
+.navbar {
+    background-color: #CED5F1;
+}
+.navbar .nav-link {
+    color: #231613;
+}
+.navbar .nav-link:hover {
+    color: #E84D68;
+    text-decoration: underline;
+}
+/* Otsikoiden tyylit */
+h1 {
+    color: #231613;
+}
+h2 {
+    color: #E84D68;
+}
+/* Kuvakarusellin tyylit */
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: darkslategray;
 }
